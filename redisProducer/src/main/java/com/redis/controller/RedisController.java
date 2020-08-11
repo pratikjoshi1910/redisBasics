@@ -32,8 +32,9 @@ public class RedisController {
 		{
 		System.out.println(student1.getName());
 		System.out.println(student1.getId());
-
 		}
+		Student x = repository.findByNameAndValue(student.getName(),student.getValue());
+		System.out.println("query name is" + x.getName());
 	}
 
 }

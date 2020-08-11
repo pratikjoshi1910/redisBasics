@@ -3,15 +3,28 @@ package com.redis.entity;
 import java.io.Serializable;
 
 import org.springframework.data.redis.core.RedisHash;
+import org.springframework.data.redis.core.index.Indexed;
 
 @RedisHash("student")
 public class Student implements Serializable {
 
 	private String geneder;
 
+	@Indexed
 	private String id;
+	@Indexed
 	private String name;
 	private int grade;
+	@Indexed
+	private String value; 
+
+	public String getValue() {
+		return value;
+	}
+
+	public void setValue(String value) {
+		this.value = value;
+	}
 
 	public String getId() {
 		return id;
