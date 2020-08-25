@@ -1,0 +1,75 @@
+[
+	{
+		"id":1,
+		"tag": "send_ack",
+		"desc": "send acknowledgement to the ",
+		"source": "1"
+	},
+	{
+		"id":2,
+		"tag": "historical_data",
+		"desc": "save the event in the historical data event",
+		"source": "1"
+	},
+	
+	{
+		"id":3,
+		"tag": "check_token_prefrence",
+		"desc": "check user`s token prefrence",
+		"source": "1"
+	},
+	{
+		"id":4,
+		"tag": "check_user",
+		"desc": "check the user existance mentioned in the event",
+		"source": "1"
+	},
+	{
+		"id":5,
+		"tag": "create_user",
+		"desc": "if user is not available create_user",
+		"source": "1"
+	},
+	{
+		"id":6,
+		"tag": "enable_user",
+		"desc": "enable user for for token",
+		"source": "1"
+	},
+	{
+		"id":7,
+		"tag": "generate_seed_file",
+		"desc": "if user is not available create_user",
+		"source": "1"
+	},
+	{
+		"id":8,
+		"tag": "get_user_prefrence",
+		"desc": "get user prefrence for email",
+		"source": "1"
+	},
+	{
+		"id":9,
+		"tag": "get_receipent_list",
+		"desc": "send_email_to_receipent",
+		"source": "1"
+	},
+	{
+		"id":10,
+		"tag": "send_email",
+		"desc": "send_email_to_receipents",
+		"source": "1"
+	},
+	{
+		"id": 11,
+		"tag": "poll_email_status",
+		"desc": "poll the status for email",
+		"source": "1"
+	},
+    {
+		"id": 12,
+		"tag": "send_completion_order",
+		"desc": "poll the status for email",
+		"source": "1"
+	}
+]
